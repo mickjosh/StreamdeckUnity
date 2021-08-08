@@ -1,0 +1,230 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key0",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key0"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key1",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key1"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key2",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key2"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key3",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key3"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key4",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key4"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key5",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key5"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key6",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key6"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key7",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key7"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key8",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key8"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key9",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key9"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key10",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key10"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key11",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key11"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key12",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key12"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key13",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key13"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key14",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key14"
+    },
+    {
+      "Icon": "Images/UnityLogo",
+      "Name": "Key15",
+      "States": [
+        {
+          "Image": "Images/Black",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "com.studiovr.unitylink.key15"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "studiovr",
+  "CodePath": "UnityStreamdeckPlugin.exe",
+  "Description": "This lets you display the number of times you pressed on the key.",
+  "Name": "Counter",
+  "Icon": "Images/UnityLogo",
+  "Category": "UnityLink",
+  "CategoryIcon": "Images/UnityLogo",
+  "Version": "1.2",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
