@@ -3,7 +3,6 @@ using SharpDeck.Events.Received;
 using SharpDeck.Manifest;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -50,11 +49,15 @@ namespace UnityStreamdeckPlugin.Action
         protected override Task OnWillAppear(ActionEventArgs<AppearancePayload> args)
         {
             Keys[KeyID].Add(this);
+            Server.instance.SendOnWillAppear(KeyID);
+
             return base.OnWillAppear(args);
         }
         protected override Task OnWillDisappear(ActionEventArgs<AppearancePayload> args)
         {
             Keys[KeyID].Remove(this);
+            Server.instance.SendOnWillDisappear(KeyID);
+
             return base.OnWillDisappear(args);
         }
     

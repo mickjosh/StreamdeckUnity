@@ -172,6 +172,12 @@ MonoBehaviour:
   OnKeyDown:
     m_PersistentCalls:
       m_Calls: []
+  OnWillAppear:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWillDisappear:
+    m_PersistentCalls:
+      m_Calls: []
   OnConnect:
     m_PersistentCalls:
       m_Calls: []

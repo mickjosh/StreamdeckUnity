@@ -12,6 +12,19 @@ namespace StudioVR.Streamdeck
         private void Start()
         {
             client.OnConnect.AddListener(OnConnect);
+            client.OnWillAppear.AddListener(OnWillAppear);
+        }
+
+        public void OnWillAppear(int KeyID)
+        {
+            try
+            {
+                if (Images[KeyID] != null)
+                {
+                    client.SetImage(Images[KeyID].ToBase64String(), KeyID);
+                }
+            }
+            catch (Exception e) { Debug.LogError(e.Message); }
         }
 
         public void OnConnect()
@@ -26,7 +39,7 @@ namespace StudioVR.Streamdeck
                     }
                 }
             }
-            catch (Exception e) { print(e.Message); }
+            catch (Exception e) { Debug.LogError(e.Message); }
         }
 
         public void SetImage(Texture2D tex, int keyID)

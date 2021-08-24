@@ -17,6 +17,8 @@ namespace StudioVR.Streamdeck
         [Header("Streamdeck")]
         public StreamdeckEvent OnKeyUp;
         public StreamdeckEvent OnKeyDown;
+        public StreamdeckEvent OnWillAppear;
+        public StreamdeckEvent OnWillDisappear;
 
         [Header("Server")]
         public UnityEvent OnConnect;
@@ -175,6 +177,14 @@ namespace StudioVR.Streamdeck
 
                     case "KeyDown":
                         _ = RunOnUnityThread(() => OnKeyDown.Invoke(message.keyID));
+                        break;
+
+                    case "OnWillAppear":
+                        _ = RunOnUnityThread(() => OnWillAppear.Invoke(message.keyID));
+                        break;
+
+                    case "OnWillDisappear":
+                        _ = RunOnUnityThread(() => OnWillDisappear.Invoke(message.keyID));
                         break;
                 }
             }

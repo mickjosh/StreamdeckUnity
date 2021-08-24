@@ -168,6 +168,25 @@ namespace UnityStreamdeckPlugin
             SendMessage(json.ToString());
         }
 
+        public void SendOnWillAppear(int keyID)
+        {
+            var json = new JObject();
+
+            json["type"] = "OnWillAppear";
+            json["keyID"] = keyID;
+
+            SendMessage(json.ToString());
+        }
+        public void SendOnWillDisappear(int keyID)
+        {
+            var json = new JObject();
+
+            json["type"] = "OnWillDisappear";
+            json["keyID"] = keyID;
+
+            SendMessage(json.ToString());
+        }
+
         private class Client
         {
             public Client(TcpClient tcp)

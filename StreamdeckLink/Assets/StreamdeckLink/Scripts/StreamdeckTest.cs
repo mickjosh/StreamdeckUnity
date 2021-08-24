@@ -14,6 +14,9 @@ namespace StudioVR.Streamdeck
 
             client.OnKeyUp.AddListener(KeyUp);
             client.OnKeyDown.AddListener(KeyDown);
+
+            client.OnWillAppear.AddListener(OnWillAppear);
+            client.OnWillDisappear.AddListener(OnWillDisappear);
         }
 
         public void Connection()
@@ -32,6 +35,15 @@ namespace StudioVR.Streamdeck
         public void KeyDown(int KeyID)
         {
             print($"Key:{KeyID} pressed down!");
+        }
+    
+        public void OnWillAppear(int KeyID)
+        {
+            print($"Key:{KeyID} just appeared!");
+        }
+        public void OnWillDisappear(int KeyID)
+        {
+            print($"Key:{KeyID} just disappeared!");
         }
     }
 }
